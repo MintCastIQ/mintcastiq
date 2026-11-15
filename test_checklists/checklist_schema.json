@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org",
+  "$id": "https://example.com",
+  "title": "CardMeta",
+  "description": "A schema validating the properties and visual grading analysis of a trading card",
+  "type": "object",
+  "required": [
