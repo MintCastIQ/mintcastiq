@@ -1,2 +1,45 @@
+# Virtual environments & Python caches
 venv/
-__pycache__
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets & local configuration
+.env
+*.env
+!*.env.example
+*.secret
+*.key
+*.pem
+
+# Large ML / Vision model weights & Hugging Face caches
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+.cache/
+huggingface/
+
+# Local test images, raw card scans & output dumps
+test_cards/
+test_checklists/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+output/
+tmp/
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
