@@ -1,6 +1,6 @@
 # MintCastIQ — Automated Trading Card Ingestion & Normalization Pipeline
 
-[![CI Lint & Unit Tests](https://github.com<GITHUB_OWNER>/mintcastiq/actions/workflows/ci.yml/badge.svg)](https://github.com<GITHUB_OWNER>/mintcastiq/actions/workflows/ci.yml)
+[![CI Lint & Unit Tests](https://github.com/mintcastiq/mintcastiq/actions/workflows/ci.yml/badge.svg)](https://github.com/mintcastiq/mintcastiq/actions/workflows/ci.yml)
 ![Python 3.12+](https://shields.io)
 ![Polars](https://shields.io)
 
